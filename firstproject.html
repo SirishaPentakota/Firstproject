@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+<style>
+.container {
+  display: flex; 
+ flex-wrap: wrap;
+
+}
+
+.table-wrapper {
+
+flex: 1; 
+  margin-right: 10px; 
+  width: 100%;
+  max-width: calc(25% - 10px); 
+  box-sizing: border-box; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+
+
+	h1{
+		color:Red;
+}
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+	.container button {
+            margin-left: 10px;
+        }
+
+        h1 {
+            margin-right: 10px;
+        }
+	.container{
+            background-color: lightpink;
+            padding: 10px;
+        }
+	body{
+	background-color:white;
+}
+
+    </style>
+
+
+  
+
+<style>
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+  
+th {
+  background-color: orange; 
+  padding: 10px;
+}
+
+td {
+  text-align: center; /* Center align the content within each cell */
+}
+
+tr {
+   /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center align the content within the row */
+}
+ tr:nth-child(-n+4) {
+  background-color: grey; 
+}
+
+tr:not(:nth-child(-n+4)) {
+  background-color: light; 
+}
+ tr:last-child {
+  background-color: lightblue; 
+  
+th, td {
+  align-items: center;
+  padding: 10px;
+}
+
+.vertical-line {
+  border-left: 2px solid black;
+}
+
+.horizontal-line {
+  border-top: 2px solid black;
+}
+</style>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <input type="text" placeholder="Enter city">
+	<button type="submit">  Search</button>
+    </div>
+
+
+  <div class="container">
+  <div class="table-wrapper">
+<table>
+  <tr>
+    <th colspan="3">   Date:DD/MM/YYYY </th>
+  </tr>
+  <tr>
+
+
+    <tr>
+    <td colspan="3" class="horizontal-line">Temperature</td>
+  </tr>
+  </tr>
+  
+  <tr>
+    <td class="vertical-line">Min</td>
+    <td>Max</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">xx.xx</td>
+    <td>xx.xx</td>
+   
+  </tr>
+  
+    <td class="vertical-line">Pressure</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">Humidity</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+ 
+</table>
+  </div>
+  
+   <div class="table-wrapper">
+<table>
+  <tr>
+    <th background-color:red; colspan="3">   Date:DD/MM/YYYY </th>
+  </tr>
+  <tr>
+    <tr>
+    <td colspan="3" class="horizontal-line">Temperature</td>
+  </tr>
+  </tr>
+  
+  <tr>
+    <td class="vertical-line">Min</td>
+    <td>Max</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">xx.xx</td>
+    <td>xx.xx</td>
+   
+  </tr>
+  
+    <td class="vertical-line">Pressure</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">Humidity</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+ 
+</table>
+  </div>
+  
+  <div class="table-wrapper">
+<table>
+  <tr>
+    <th background-color:red; colspan="3">   Date:DD/MM/YYYY </th>
+  </tr>
+  <tr>
+    <tr>
+    <td colspan="3" class="horizontal-line">Temperature</td>
+  </tr>
+  </tr>
+  
+  <tr>
+    <td class="vertical-line">Min</td>
+    <td>Max</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">xx.xx</td>
+    <td>xx.xx</td>
+   
+  </tr>
+  
+    <td class="vertical-line">Pressure</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">Humidity</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+ 
+</table>
+  </div>
+   
+       <div class="table-wrapper">
+<table>
+  <tr>
+    <th background-color:red; colspan="3">   Date:DD/MM/YYYY </th>
+  </tr>
+  <tr>
+    <tr>
+    <td colspan="3" class="horizontal-line">Temperature</td>
+  </tr>
+  </tr>
+  
+  <tr>
+    <td class="vertical-line">Min</td>
+    <td>Max</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">xx.xx</td>
+    <td>xx.xx</td>
+   
+  </tr>
+  
+    <td class="vertical-line">Pressure</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+  <tr>
+    <td class="vertical-line">Humidity</td>
+    <td>xxx.xx</td>
+   
+  </tr>
+ 
+</table>
+  </div>
+
+	
+	
+	
+  </div>
+</body>
+</html>
+
